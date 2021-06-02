@@ -14,5 +14,5 @@ spec:
         app: sample-app
     spec:
       containers:
-      - image: brianstorti/sample-app-for-spinnaker
+      - image: index.docker.io/brianstorti/sample-app-for-spinnaker
         name: sample-app
