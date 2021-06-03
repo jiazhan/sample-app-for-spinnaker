@@ -3,5 +3,5 @@ require "sinatra"
 set :bind, "0.0.0.0"
 
 get "/" do
-  "(v2) Hello, Spinnaker!"
+  raise "Whoops, something went wrong"
 end
