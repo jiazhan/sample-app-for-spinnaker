@@ -14,5 +14,5 @@ spec:
         app: sample-app
     spec:
       containers:
-      - image: "kvgarnet/spinnaker-sample-app:${trigger['tag']}"
+      - image: "index.docker.io/kvgarnet/spinnaker-sample-app
         name: sample-app
