@@ -14,5 +14,5 @@ spec:
         app: sample-app
     spec:
       containers:
-      - image: 940671628147.dkr.ecr.us-west-1.amazonaws.com/kvgarnet/sample-app-for-spinnaker
+      - image: index.docker.io/kvgarnet/spinnaker-sample-app
         name: sample-app
